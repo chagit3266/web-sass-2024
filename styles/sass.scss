@@ -1,0 +1,17 @@
+@import './variables';
+@import './header';
+@import '/my_class1';
+//-------------------chagit-------------------
+body {
+    color: $textColor;
+    font-family: $fontFamily;
+}
+
+ul {
+    a {
+        text-decoration: none;
+        &:hover{
+            opacity: 0.5;
+        }
+    }
+}

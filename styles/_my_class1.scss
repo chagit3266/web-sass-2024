@@ -1,0 +1,15 @@
+.text-success {
+    @include my_class(green, 1 px, pointer);
+}
+
+.text-danger {
+    @include my_class(red, 1.5 px, pointer);
+}
+
+.text-info {
+    @include my_class(blue, 0.5 px, all-scroll);
+}
+
+.text-warning {
+    @include my_class($backgroundBtn, 2 px, col-resize);
+}

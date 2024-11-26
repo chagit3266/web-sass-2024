@@ -1,0 +1,6 @@
+header{
+    @include flex(column,rgb(111, 168, 188));
+    input{
+        background:$backgroundBtn;
+    };
+}
