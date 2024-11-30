@@ -1,15 +1,15 @@
 .text-success {
-    @include my_class(green, 1 px, pointer);
+    @include my_class(green, 1px, pointer,left);
 }
 
 .text-danger {
-    @include my_class(red, 1.5 px, pointer);
+    @include my_class(red, 1.5px, pointer,center);
 }
 
 .text-info {
-    @include my_class(blue, 0.5 px, all-scroll);
+    @include my_class(blue, 0.5px, all-scroll,right);
 }
 
 .text-warning {
-    @include my_class($backgroundBtn, 2 px, col-resize);
+    @include my_class($backgroundBtn, 2px, col-resize,left);
 }

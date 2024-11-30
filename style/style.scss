@@ -10,13 +10,11 @@ body{
     border:$my_border;
     color: $textColor;
     font-family: $fontFamily;
+
 }
 
 ul {
     a {
-        text-decoration: none;
-        &:hover{
-            opacity: 0.5;
-        }
+        @include a;
     }
 }

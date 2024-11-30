@@ -11,30 +11,50 @@ header input {
 
 .text-success {
   color: green;
-  background-color: #008300;
-  font-weight: 1 px;
+  background-color: #00e600;
+  padding: 1px;
   cursor: pointer;
+  text-align: left;
+}
+.text-success p {
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .text-danger {
   color: red;
-  background-color: #ff0303;
-  font-weight: 1.5 px;
+  background-color: #ff6666;
+  padding: 1.5px;
   cursor: pointer;
+  text-align: center;
+}
+.text-danger p {
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .text-info {
   color: blue;
-  background-color: #0303ff;
-  font-weight: 0.5 px;
+  background-color: #6666ff;
+  padding: 0.5px;
   cursor: all-scroll;
+  text-align: right;
+}
+.text-info p {
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 .text-warning {
   color: rgb(228, 225, 30);
-  background-color: #e4e120;
-  font-weight: 2 px;
+  background-color: #efed79;
+  padding: 2px;
   cursor: col-resize;
+  text-align: left;
+}
+.text-warning p {
+  padding-left: 25px;
+  padding-right: 25px;
 }
 
 body {
@@ -47,6 +67,7 @@ body {
 
 ul a {
   text-decoration: none;
+  color: rgb(30, 194, 87);
 }
 ul a:hover {
   opacity: 0.5;

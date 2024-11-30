@@ -6,15 +6,28 @@
     background-color: $background;
 }
 
-@mixin my_class($color1,$weight,$cursor) {
+@mixin my_class($color1,$weight,$cursor,$align) {
     color: $color1;
-    background-color:lighten($color1,0.5);
-    font-weight: $weight;
+    background-color:lighten($color1,20%);
+    padding: $weight;
     cursor:$cursor;
+    text-align: $align;
+    p{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
 }
 
+@mixin a{
+    text-decoration: none;
+    &:hover{
+            opacity: 0.5;
+    }
+    color: $textColor2;
+}
 
 $backgroundBtn: rgb(228, 225, 30);
 $textColor: rgb(21, 107, 135);
+$textColor2: rgb(30, 194, 87);
 $fontFamily:"sans-serif";
 $my_border: 4px solid red;
