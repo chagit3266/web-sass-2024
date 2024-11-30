@@ -1,0 +1,53 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(111, 168, 188);
+}
+header input {
+  background: rgb(228, 225, 30);
+}
+
+.text-success {
+  color: green;
+  background-color: #008300;
+  font-weight: 1 px;
+  cursor: pointer;
+}
+
+.text-danger {
+  color: red;
+  background-color: #ff0303;
+  font-weight: 1.5 px;
+  cursor: pointer;
+}
+
+.text-info {
+  color: blue;
+  background-color: #0303ff;
+  font-weight: 0.5 px;
+  cursor: all-scroll;
+}
+
+.text-warning {
+  color: rgb(228, 225, 30);
+  background-color: #e4e120;
+  font-weight: 2 px;
+  cursor: col-resize;
+}
+
+body {
+  margin: 0;
+  background-color: silver;
+  border: 4px solid red;
+  color: rgb(21, 107, 135);
+  font-family: "sans-serif";
+}
+
+ul a {
+  text-decoration: none;
+}
+ul a:hover {
+  opacity: 0.5;
+}/*# sourceMappingURL=style.css.map */

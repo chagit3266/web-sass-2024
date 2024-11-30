@@ -1,8 +1,13 @@
 @import './variables';
 @import './header';
-@import '/my_class1';
+@import './my_class';
 //-------------------chagit-------------------
-body {
+
+
+body{
+    margin: 0;
+    background-color: silver;
+    border:$my_border;
     color: $textColor;
     font-family: $fontFamily;
 }
